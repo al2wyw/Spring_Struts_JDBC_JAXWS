@@ -134,6 +134,21 @@
             	</exclusion>
 			</exclusions>
 		</dependency>
+		
+		<!-- NoClassDefFoundError: com/sun/istack/localization/Localizable -->
+		<dependency>
+			<groupId>com.sun.xml.bind</groupId>
+			<artifactId>jaxb-impl</artifactId>
+			<version>2.1.13</version>
+		</dependency>
+		
+		<!-- NoClassDefFoundError: com/sun/xml/stream/buffer/AbstractCreatorProcessor -->
+		<dependency>
+			<groupId>com.sun.xml.stream.buffer</groupId>
+			<artifactId>streambuffer</artifactId>
+			<version>1.5.3</version>
+		</dependency>
+		
 	</dependencies>
 	
 	<build>
